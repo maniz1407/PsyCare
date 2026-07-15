@@ -1,0 +1,22 @@
+# Root Gitignore
+tools/
+setup-tools.ps1
+run-local.ps1
+git-init.ps1
+build-all.ps1
+
+# Backend
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/.settings/
+backend/.project
+backend/.classpath
+backend/bin/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+frontend/*.local
+frontend/.vscode/
